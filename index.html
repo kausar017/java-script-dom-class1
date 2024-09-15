@@ -11,12 +11,16 @@
         <marquee behavior="" direction=""><h1>Wellcome to My dom</h1></marquee>
     </header>
     <main>
-        <h1> My Awesome Dom de baba</h1>
-        <ul>
-            <li>jalali set </li>
-            <li>Shafayet </li>
-            <li>bonobash</li>
-        </ul>
+        <div id="my-title">
+            <h1> My Awesome Dom de baba</h1>
+        </div>
+        <section>
+            <ul id="main-title">
+                <li>jalali set </li>
+                <li>Shafayet </li>
+                <li>bonobash</li>
+            </ul>
+        </section>
         <section class="fruits-container">
             <ul id="fruits-title"> 
                 <li>banana</li>
@@ -32,25 +36,9 @@
                 <li class="places">sundarbon</li>
             </ul>
         </section>
-        <section></section>
+
     </main>
     <script src="./js/dom.js "></script>
-    <script>
-        // const fruits = document.getElementById('fruits-title');
-        // fruits.innerText = 'fruits changed by js';
-        // console.log(fruits);
-        
-    //    const place = document.getElementsByClassName('places') ;
-    //    for(const plac of place) { 
-    //     console.log(plac.innerText); 
-        
-    //    }
-       const doc = document.querySelectorAll('.fruits-container li');
-    //    console.log(doc);
-       for(const li of doc) {
-        console.log(li.innerText);
-        
-       }
-    </script>
+    <script src="./js/stylejs.js"></script>
 </body> 
 </html>
