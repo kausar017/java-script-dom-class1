@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour of Dom</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body class="container">
+    <header>
+        <marquee behavior="" direction=""><h1>Wellcome to My dom</h1></marquee>
+    </header>
+    <main>
+        <h1> My Awesome Dom de baba</h1>
+        <ul>
+            <li>jalali set </li>
+            <li>Shafayet </li>
+            <li>bonobash</li>
+        </ul>
+        <section class="fruits-container">
+            <ul id="fruits-title"> 
+                <li>banana</li>
+                <li>jakfrot</li>
+                <li>apple</li>
+            </ul>
+        </section>
+        <section>
+            <h1>places I like to visit</h1>
+            <ul>
+                <li class="places">kataban</li>
+                <li class="places">shalban</li>
+                <li class="places">sundarbon</li>
+            </ul>
+        </section>
+        <section></section>
+    </main>
+    <script src="./js/dom.js "></script>
+    <script>
+        // const fruits = document.getElementById('fruits-title');
+        // fruits.innerText = 'fruits changed by js';
+        // console.log(fruits);
+        
+    //    const place = document.getElementsByClassName('places') ;
+    //    for(const plac of place) { 
+    //     console.log(plac.innerText); 
+        
+    //    }
+       const doc = document.querySelectorAll('.fruits-container li');
+    //    console.log(doc);
+       for(const li of doc) {
+        console.log(li.innerText);
+        
+       }
+    </script>
+</body> 
+</html>
